@@ -1,0 +1,740 @@
+.nav{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px 0px 10px 0px;
+    font-size: 15px;
+    position: sticky;
+    top: 0px;
+}
+.nav ul li{
+    display: inline;
+    margin: 0px 5px;
+    font-weight: bold;
+}
+.nav ul li a i{
+    margin: 0px 2px;
+    font-weight: bold;
+}
+.nav .btn{
+    background: none;
+    border: 3px solid black;
+    color: black;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-top: -7px;
+} 
+.tab{
+    font-weight: bolder;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.tab h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.tab h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.tab button{
+    padding: 10px 20px;
+    background-color: darkorange;
+    border: none;
+    font-weight: bold;
+}
+.tab1{
+ padding: 30px 0px;   
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: bold;
+}
+.tab1 h6{
+    color: gray;
+    font-size: 17px;
+    font-weight: bold;
+}
+.tab1 h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.tab1 button{
+    border: none;
+    background-color: darkorange;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.img1{
+    height: 200px;
+    width: 100%;
+    background-image: url(img/mi1.avif);
+    background-repeat: round;
+    margin: 30px 0px 20px 0px;
+}
+.img2{
+    height: 200px;
+    width: 100%;
+    background-image: url(img/b.jpg);
+    background-repeat: round;
+    margin: 30px 0px 20px 0px;
+}
+.img3{
+    height: 200px;
+    width: 100%;
+    background-image: url(img/mi3.webp);
+    background-repeat: round;
+    margin: 30px 0px 20px 0px;
+}
+
+.tab2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.tab2 h6{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.tab2 p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.tab2 button{
+    border: none;
+    font-size: 17px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.tab2 button i{
+    margin: 5px;
+}
+.full{
+    background-color:  lightpink;
+    padding: 30px 0px;
+    border-radius: 2px;
+}
+.tab3,.tab4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    padding: 30px 0px;
+
+}
+.tab3 h5,.tab4 h5{
+    font-weight: bold;
+    font-size: 18px;
+}
+.tab3 div{
+    border: 2px solid gray;
+    width: 3%;
+}
+.tab4 div{
+    border: 2px solid gray;
+    width: 10%;
+}
+.tab4 p{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.tab4 span{
+    margin: 2px 0px;
+    font-size: 14px;
+    color: gray;
+}
+.tab4 button{
+    background-color: darkorange;
+    border: none;
+    padding: 5px 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.img4{
+    height: 190px;
+    width: auto;
+    background-image: url(img/f1.webp);
+    background-repeat: round;
+}
+.img5{
+    height: 190px;
+    width: auto;
+    background-image: url(img/h.png);
+    background-repeat: round;
+}
+.tab5{
+    margin-top:130px;
+    font-size: large;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 0px 20px 0px;
+}
+.tab5 h6{
+    font-weight: bold;
+}
+.tab5 p{
+    border: 2px solid grey;
+    width: 7%;
+}
+.tab6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px 0px;
+}
+.tab6 h6{
+    font-weight: bold;
+    font-size: 18px;
+}
+.tab6 p,.tab6 span{
+    font-size: 15px;
+    color: gray;
+}
+.tab6 p span{
+    color: darkred;
+}
+.tab6 button{
+    border: none;
+    background-color: darkorange;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.tab7{
+    margin: 30px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img6{
+    margin: 20px 0px 0px 0px;
+    height: 150px;
+    width: 100%;
+    background-image: url(img/mi5.jpg);
+    background-repeat: round;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.full1{
+    margin: 20px 0px;
+    background-color:  lightpink;
+}
+.img6 i{
+    font-size: 21px;
+    border: 3px solid white;
+    padding: 13px 18px 15px 22px;
+    border-radius: 50%;
+}
+.tab7{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+.tab7 h6{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.tab7 div{
+    border: 2px solid gray;
+    width: 10%;
+}
+.tab8{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 10px;
+
+}
+.tab8 div span {
+    font-size: 15px;
+    margin:0px 15px;
+}
+.tab8 hr{
+    color: rgb(158, 157, 157);
+    margin: 5px;
+}
+.tab8 div span p{
+    margin: 0px;
+}
+.img7{
+    height: 19.6rem;
+    width: 100%;
+    background-image: url(img/wi.jpg);
+    background-repeat: round;
+    margin-bottom: 20px;
+}
+.tab9{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 10px 0px 20px;
+    background-color: lightpink;
+    margin: 50px 0px;
+}
+.ttab{
+    display: flex;
+}
+.tab9 h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.tab9 p{
+    font-size: 15px;
+}
+.tab9 p span{
+    color: rgb(239, 93, 68);
+}
+.tab9 h1{
+    font-weight: bolder;
+    font-size: 32px;
+}
+.tab9 .div{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.tab9 .div1{
+    text-align: center;
+    color: white;
+    width: 60%;
+    background-color: limegreen;
+    font-weight: bold;
+    font-size: 14px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 1px 0px 1px 0px;
+}
+.tab9 .div2{
+    width: 40%;
+    padding: 1px 0px 1px 0px;
+    background-color: rgb(164, 164, 164);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.tab9 .f1{
+    margin-top: 20px;
+    text-align: center;
+}
+.tab9 .f2{
+    margin-top: 20px;
+    text-align: center;
+}
+.tab9 button{
+    margin-top: 20px;
+    border: none;
+    background-color: darkorange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.img8{
+    height: 250px;
+    width: auto;
+    background-image: url(img/m5.jpg);
+    background-repeat: round;
+    margin-bottom: 20px;
+
+}
+.img9{
+    height: 250px;
+    width: auto;
+    background-image: url(img/b4.avif);
+    background-repeat: round;
+    margin-bottom: 20px;
+}
+.img10{
+    height: 250px;
+    width: auto;
+    background-image: url(img/m3.jpg);
+    background-repeat: round;
+    margin-bottom: 20px;
+
+}
+.img11{
+    height: 250px;
+    width: auto;
+    background-image: url(img/h1.jpg);
+    background-repeat: round;
+    margin-bottom: 20px;
+}
+.img12{
+    height: 250px;
+    width: auto;
+    background-image: url(img/mi2.webp);
+    background-repeat: round;
+    margin-bottom: 20px;
+}
+.img13{
+    height: 250px;
+    width: auto;
+    background-image: url(img/wi4.webp);
+    background-repeat: round;
+    margin-bottom: 20px;
+}
+.img14{
+    height: 250px;
+    width: auto;
+    background-image: url(img/b2.jpg);
+    background-repeat: round;
+    margin-bottom: 20px;
+}
+.img15{
+    height: 250px;
+    width: auto;
+    background-image: url(img/m8.png);
+    background-repeat: round;
+    margin-bottom: 20px;
+}
+.tab10{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.tab10 i:first-child{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: xx-large;
+}
+.tab10 i:last-child{
+    display: flex;
+    justify-content: end;
+    color: gray;
+font-size: xx-large;
+}
+.tab10 h6{
+    color: gray;
+    font-weight: 600;
+}
+.tab10 p{
+    font-size: 20px;
+}
+.cntr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+}
+.cntr i{
+    margin: 0px 5px;
+}
+.cntr i:first-child{
+    color: rgb(239, 93, 68);
+    font-size: 12px;
+}
+.img16{
+    height: 150px;
+    width: auto;
+    background-image: url(img/mi6.jpg);
+    background-repeat: round;
+    margin-bottom: 20px;
+}
+.img17{
+    height: 150px;
+    width: auto;
+    background-image: url(img/b3.jpg);
+    background-repeat: round;
+    margin-bottom: 20px;
+}
+.img18{
+    height: 150px;
+    width: auto;
+    background-image: url(img/mount1.jpg);
+    background-repeat: round;
+    margin-bottom: 20px;
+}
+.tab11{
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightpink;
+    padding: 30px 0px 0px 0px;
+}
+.tab11 h6{
+    font-size: 17px;
+    font-weight: bold;
+}
+.tab11 p{
+    color: gray;
+    font-size: 18px;
+}
+.tab11 input{
+    padding: 8px;
+    margin-top: 10px;
+border: 1px solid rgb(183, 190, 200);    
+}
+.tab11 button{
+    background-color: darkorange;
+    font-weight:bold;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: 1px solid orangered;
+    margin-top: 10px;
+}
+.footer{
+    padding: 40px 0px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(58, 58, 58);
+}
+.footer h6{
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer ul li{
+    font-size: 15px;
+    margin-left: -30px;
+}
+.footer ul hr{
+    margin:8px 0px 8px -30px;
+}
+.space{
+    margin-top: 40px;
+}
+.footer i{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+}
+.footer1{
+    background-color: rgb(93, 93, 93);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+}
+.atab{
+    background-color: lightpink;
+    padding: 20px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.atab h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.atab p{
+    color: gray;
+    font-size: 18px;
+}
+
+.atab1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 60px 0px;
+}
+.atab1 div{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.atab1 p{
+    font-size: 15px;
+}
+.atab1 h6{
+    font-size: 19px;
+    font-weight: bold;
+}
+.aimg1{
+    height: 250px;
+    width: 100%;
+    background-image: url(img/mi3.webp);
+    background-repeat: round;
+}
+.aimg2{
+    height: 250px;
+    width: 100%;
+    background-image: url(img/wi3.avif);
+    background-repeat: round;
+}
+.aimg3{
+    height: 250px;
+    width: 100%;
+    background-image: url(img/b3.jpg);
+    background-repeat: round;
+}
+.mimg1{
+    height: 300px;
+    width: 100%;
+    background-image: url(img/wi3.avif);
+    background-repeat: round;
+}
+.side{
+    border-left: 3px solid gray;
+    padding: 10px;
+}
+.atab2{
+    border: 1px solid lightsalmon;
+    margin-bottom: 10px;
+}
+.atab2 .afst{
+    background-color: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+.atab2 h6{
+    font-size: 17px;
+    font-weight: bold;
+}
+.atab2 .afst div,.asnd h5,.athrd h5{
+    border: 2px solid gray;
+    width: 10%;
+}
+.tab4 div{
+    border: 2px solid gray;
+    width: 10%;
+}
+.asnd,.athrd{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.asnd p,.athrd p{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.asnd span,.athrd span{
+    margin: 2px 0px;
+    font-size: 14px;
+    color: gray;
+}
+.asnd button,.athrd button{
+    background-color: darkorange;
+    border: none;
+    padding: 5px 15px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.afull{
+    background-color: lightpink;
+    padding: 20px 10px;
+}
+.atab3{
+    margin: 30px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .atab3,.atab4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;   
+        padding: 20px 0px;
+        margin-bottom: 20px;
+} */
+.atab3 h6{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.atab3 div{
+    border: 2px solid gray;
+    width: 10%;
+}
+.atab4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 10px;
+}
+.atab4 div span {
+    font-size: 15px;
+    margin:0px 15px;
+}
+.atab4 hr{
+    color: rgb(158, 157, 157);
+    margin: 5px;
+}
+.atab4 div span p{
+    margin: 0px;
+}
+.sfull{
+    background-color: lightpink;
+    padding: 20px 0px 30px 0px;
+}
+.cfoot{
+    height: 220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightpink;
+    padding: 130px 0px 0px 0px;
+}
+.cfoot h6{
+    font-size: 17px;
+    font-weight: bold;
+}
+.cfoot p{
+    color: gray;
+    font-size: 18px;
+}
+.cfoot input{
+    padding: 8px;
+    margin-top: 10px;
+border: 1px solid rgb(183, 190, 200);    
+}
+.cfoot button{
+    background-color: darkorange;
+    font-weight:bold;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: 1px solid orangered;
+    margin-top: 10px;
+}
+.ctab1{
+    padding: 50px 0px;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ctab1 button{
+    background-color: darkorange;
+    border: none;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.ctab1 h6{
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.ctab1 ul li{
+    margin-left: -32px;
+}
+.crd img{
+    filter: brightness(0%);
+}
+.crd h6{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.crd h4{
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: xx-large;
+}
